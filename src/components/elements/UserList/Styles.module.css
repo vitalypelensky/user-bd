@@ -1,0 +1,15 @@
+.root{
+    padding: 0px;
+    max-height: 0;
+    transition: all 1000ms;
+    overflow: hidden;
+}
+
+.active{
+    padding: 20px;
+    max-height: 1000px;
+}
+
+.root ul{
+    list-style: none;
+}

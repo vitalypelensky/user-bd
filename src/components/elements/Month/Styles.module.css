@@ -1,0 +1,35 @@
+.root {
+    width: 100%;
+    min-height: 100px;
+    border-radius: 20px;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+
+.root p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.silver{
+    background-color: silver;
+}
+
+.blue{
+    background-color: lightskyblue;
+}
+
+.green{
+    background-color: lightgreen;
+}
+
+.red{
+    background-color: lightcoral;
+}
+
+
+@media screen and (min-width: 768px) {
+    .root {
+        width: calc((100% / 2) - 10px);
+    }
+}
